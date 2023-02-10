@@ -134,9 +134,15 @@ a {
 }
 
 @media only screen and (max-width: 800px) {
+    .left-container, .right-container {
+        height: 7em !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
     #boy, #girl {
         font-size: .95rem;
-        
     }
 
     #b-lock, #g-lock {
