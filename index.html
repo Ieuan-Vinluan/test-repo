@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Random Ship Generator 2024-2021</title>
+		<meta charset="UTF-8"/>
+		
+		<meta name="description" content="Random Ship Generator 2024-2021"/>
+		<meta name="tags" content="random, ship, generator, 2024, 2023, 2022, 2021, potassium, love, etc"/>
+		<meta name="revised" content="Mark Gabrielle B. Ong (9-K) 4 Sep 2018 9:25 PM (GMT + 08:00)"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1;">
+		
+		<link rel="icon" href="/web/20180905213706im_/http://randomshipgenerator2022.000webhostapp.com/favicon.png"/> <!-- Maybe switch this out with the Computron Logo -->
+		
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"> </script>
+	</head>
+	<body>
+		<div id="main-content">
+			<img src="/web/20180905213706im_/http://randomshipgenerator2022.000webhostapp.com/favicon.png" width="50" style="margin-top: 10px">
+			<h1 style="margin-top: 0px">Random Ship Generator</h1>
+			<h5 style="line-height: 0.5em;">Batch 2024-2021</h5>
+			<h6 style="margin-top: -5px; line-height: 0em; color: rgba(100%, 100%, 100%, 50%);">Made by Batch 2022 (Mark Gabrielle B. Ong of 9-K)</h6>
+			
+			<div style="margin: 30px 0; margin-bottom: 0; width: 100%; overflow: auto;" class="person-container">
+				<div class="left-container">
+					<span id="boy" style="\0;">...</span>
+				</div>
+				<div class="right-container">
+					<span id="girl" style="\0;">...</span>
+				</div>
+			</div>
+			<div style="margin-bottom: 30px; width: 100%; overflow: auto;" id="button-container">
+				<div style="width: 47.5%; float: left; margin: 10px; overflow: auto; text-align: center; font-family: monospace; font-size: 0.6em;">
+					<button style="margin: auto; width: 10%; border: 4px solid #808080; background-color: #202020; border-radius: 15px" onclick= "retainBToggle()" id="b-lock">
+						<span id="lockB">Lock</span>
+					</button>
+				</div>
+				<div style="width: 47.5%; float: right; margin: 10px; overflow: auto; text-align: center; font-family: monospace; font-size: 0.6em;">
+					<button style="margin: auto; width: 10%; border: 4px solid #808080; background-color: #202020; border-radius: 15px" onclick= "retainGToggle()" id="g-lock">
+						<span id="lockG">Lock</span>
+					</button>
+				</div>
+			</div>
+			<div style="margin-bottom: 10px; margin-top: -20px; width: 100%; overflow: auto;" id="batch-container">
+				<div style="float: left; width: 47.5%; margin: 10px; overflow: auto; text-align: center;">
+				<div style="margin: auto; width: 60%;">
+					<button id="batchB" style="background: #200000; border: 4px solid #800000;" onclick= "changeBatchB()">2022</button>
+				</div>
+				</div>
+				<div style="float: right; width: 47.5%; margin: 10px; overflow: auto; text-align: center;">
+				<div style="margin: auto; width: 60%;">
+					<button id="batchG" style="background: #200000; border: 4px solid #800000;" onclick= "changeBatchG()">2022</button>
+				</div>
+				</div>
+			</div>
+			<div style="background:rgba(0%, 0%, 0%, 87.5%); border: 4px solid rgba(0%, 0%, 0%, 50%); border-radius: 15px; padding: 10px; margin: 10px; font-size: 1.2em; font-weight: bold;">
+				<span id="remarks"></span>
+			</div>
+			<div>
+				<button id="generate-button" class="activate-button" onclick= "generateShip()">
+		    		Generate a ship!
+				</button>
+			</div>
+			<div>
+				<button class="undo-button" onclick="undoShip()">
+		    		Undo
+				</button>
+			</div>
+			<div style="margin: auto; margin-top: 10px; overflow: auto;" class="ship-container">
+				<button style="width: 30%;" class="gay" onclick= "toGay()">
+						Gay Ships
+				</button>
+				<button style="width: 30%;" class="straight" onclick= "toStraight()">
+						Straight Ships
+				</button>
+				<button style="width: 30%;" class="lesbian" onclick= "toLesbian()">
+						Lesbian Ships
+				</button>
+			</div>
+		</div>
+    </body>
+</html>

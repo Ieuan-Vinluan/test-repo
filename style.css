@@ -1,0 +1,210 @@
+/* Go slay whoever wants to make the site look slay. If you guys could do stuff for mobile too that would be cool. */
+* {
+    font-family: Trebuchet MS;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+@keyframes fade-in {
+    from {margin-top: 50px; opacity: 0;}
+    to {margin-top: 0; opacity: 1;}
+}
+html {
+    height: 101%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(#300030 75%, #500050);
+    animation: fade-in 1.2s ease 0s 1 normal;
+}
+a {
+    text-decoration: none;
+}
+.main-content {
+    margin: 20px;
+}
+.person-container {
+    display: flex;
+    justify-content: space-around;
+}
+.left-container {
+    float: left;
+    margin: 10px;
+    margin-bottom: 0;
+    border: 4px solid #000080;
+    border-radius: 15px;
+    background: #000020;
+    width: 50%;
+    padding: 30px;
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: all 1s;
+}
+.right-container {
+    float: right;
+    margin: 10px;
+    margin-bottom: 0;
+    border: 4px solid #800000;
+    border-radius: 15px;
+    background: #200000;
+    width: 50%;
+    padding: 30px;
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: all 1s;
+}
+#lockB, #lockG {
+    font-size: 1rem;
+}
+.activate-button {
+    background-color: #002000;
+    border: 4px solid #008000;
+    border-radius: 15px;
+    width: 12.5%;
+    padding: 15px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+.undo-button {
+    margin: auto;
+    margin-top: 10px;
+    background: #202020;
+    border: 4px solid #808080;
+    border-radius: 15px;
+    width: 6.25%;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+.gay {
+    margin: auto;
+    margin-top: 10px;
+    background: #000020;
+    border: 4px solid #000080;
+    border-radius: 15px;
+    width: 6.25%;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.straight {
+    margin: auto;
+    background: #200020;
+    border: 4px solid #800080;
+    border-radius: 15px;
+    width: 6.25%;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.lesbian {
+    margin: auto;
+    background: #200000;
+    border: 4px solid #800000;
+    border-radius: 15px;
+    width: 6.25%;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+#batchB, #batchG {
+    margin: auto;
+    border-radius: 15px;
+    width: 27.5%;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.ship-container {
+    width: 40%;
+}
+
+@media only screen and (max-width: 800px) {
+    #boy, #girl {
+        font-size: .95rem;
+    }
+
+    #b-lock, #g-lock {
+        padding: 0.5em 2em;
+        width: auto !important;
+        margin: 10px; 
+        overflow: auto; 
+        text-align: center; 
+        font-family: monospace; 
+        font-size: .9rem;
+        position: relative;
+        display: inline-block !important;
+    }
+
+    #lockB, #lockG {
+        display: inline-block !important;
+        width: 100% !important;
+    }
+
+    #batchB, #batchG {
+        width: auto !important;
+        padding: 0 1em;
+    }
+    
+    #batch-container {
+        display: flex;
+        position: relative;
+        top: 1em;
+        margin-bottom: 1.5em !important;
+    }
+
+    #button-container {
+        position: relative;
+        top: 1em;
+        display: flex;
+    }
+
+    #generate-button {
+        width: 50%;
+        font-size: 1rem;
+    }
+
+    .undo-button {
+        width: 25%;
+        font-size: 1rem;
+    }
+
+    button.lesbian, button.gay, button.straight {
+        width: 35% !important;
+        text-align: center;
+        padding: 1.5em;
+        font-size: .7rem;
+        box-sizing: unset;
+        margin: 0;
+        position: relative;
+        left: calc(((100% - 60%) / 3));
+        top: .5em;
+    }
+
+    .activate-button {
+        text-align: center;
+    }
+
+    .ship-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+}
