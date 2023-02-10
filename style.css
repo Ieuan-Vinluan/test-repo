@@ -95,6 +95,7 @@ a {
     font-family: monospace;
     font-size: 0.8em;
     font-weight: bold;
+    padding: 1em 2em !important;
 }
 .straight {
     margin: auto;
@@ -106,6 +107,7 @@ a {
     font-family: monospace;
     font-size: 0.8em;
     font-weight: bold;
+    padding: 1em 2em !important;
 }
 .lesbian {
     margin: auto;
@@ -117,6 +119,7 @@ a {
     font-family: monospace;
     font-size: 0.8em;
     font-weight: bold;
+    padding: 1em 2em !important;
 }
 #batchB, #batchG {
     margin: auto;
