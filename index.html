@@ -57,26 +57,28 @@
 			<div style="background:rgba(0%, 0%, 0%, 87.5%); border: 4px solid rgba(0%, 0%, 0%, 50%); border-radius: 15px; padding: 10px; margin: 10px; font-size: 1.2em; font-weight: bold;">
 				<span id="remarks"></span>
 			</div>
-			<div>
-				<button id="generate-button" class="activate-button" onclick= "generateShip()">
-		    		Generate a ship!
-				</button>
-			</div>
-			<div>
-				<button class="undo-button" onclick="undoShip()">
-		    		Undo
-				</button>
-			</div>
-			<div style="margin: auto; margin-top: 10px; overflow: auto;" class="ship-container">
-				<button style="width: 30%;" class="gay" onclick= "toGay()">
-						Gay Ships
-				</button>
-				<button style="width: 30%;" class="straight" onclick= "toStraight()">
-						Straight Ships
-				</button>
-				<button style="width: 30%;" class="lesbian" onclick= "toLesbian()">
-						Lesbian Ships
-				</button>
+			<div id="bottom-part">
+				<div>
+					<button id="generate-button" class="activate-button" onclick= "generateShip()">
+						Generate a ship!
+					</button>
+				</div>
+				<div>
+					<button class="undo-button" onclick="undoShip()">
+						Undo
+					</button>
+				</div>
+				<div style="margin: auto; margin-top: 10px; overflow: auto;" class="ship-container">
+					<button style="width: 30%;" class="gay" onclick= "toGay()">
+							Gay <br>Ships
+					</button>
+					<button style="width: 30%;" class="straight" onclick= "toStraight()">
+							Straight Ships
+					</button>
+					<button style="width: 30%;" class="lesbian" onclick= "toLesbian()">
+							Lesbian Ships
+					</button>
+				</div>
 			</div>
 		</div>
     </body>

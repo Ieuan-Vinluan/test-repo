@@ -1668,7 +1668,7 @@ function retainBToggle(){
 		document.getElementById("lockB").innerHTML = "Lock";
 	}
 	
-};
+}
 			
 function retainGToggle(){
 	retainG = !retainG;
