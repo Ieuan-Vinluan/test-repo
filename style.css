@@ -136,6 +136,7 @@ a {
 @media only screen and (max-width: 800px) {
     #boy, #girl {
         font-size: .95rem;
+        
     }
 
     #b-lock, #g-lock {
@@ -206,5 +207,8 @@ a {
         align-items: center;
         width: 100%;
         text-align: center;
+        margin-bottom: 10px !important;
+        overflow-y: hidden !important;
+        height: 10em;
     }
 }
