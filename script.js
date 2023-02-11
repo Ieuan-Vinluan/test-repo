@@ -1,3 +1,9 @@
+if (screen.width < 800) {
+	document.querySelector(".gay").innerHTML = "Gay<br>Ships";
+	document.querySelector(".lesbian").innerHTML = "Lesbian<br>Ships";
+	document.querySelector(".straight").innerHTML = "Straight<br>Ships";
+}
+
 var typeShip = 0;
 var retainB = false;
 var retainG = false;
